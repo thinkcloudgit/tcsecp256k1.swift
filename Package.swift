@@ -17,7 +17,7 @@ let dependencies: [Package.Dependency]
 #endif
 
 let package = Package(
-    name: "secp256k1",
+    name: "tcsecp256k1",
     products: [
         // WARNING: These APIs should not be considered stable and may change at any time.
         .library(
