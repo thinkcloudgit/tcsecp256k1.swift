@@ -36,7 +36,7 @@ let package = Package(
     dependencies: dependencies,
     targets: [
         .target(
-            name: "tcsecp256k1",
+            name: "secp256k1",
             dependencies: [
                 "secp256k1_bindings"
             ]
