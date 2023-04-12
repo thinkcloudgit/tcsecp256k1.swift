@@ -23,7 +23,7 @@ let package = Package(
         .library(
             name: "tcsecp256k1",
             targets: [
-                "secp256k1"
+                "tcsecp256k1"
             ]
         ),
         .library(
@@ -36,10 +36,11 @@ let package = Package(
     dependencies: dependencies,
     targets: [
         .target(
-            name: "secp256k1",
+            name: "tcsecp256k1",
             dependencies: [
                 "secp256k1_bindings"
-            ]
+            ],
+            path: "./Sources/secp256k1"
         ),
         .target(
             name: "zkp",
