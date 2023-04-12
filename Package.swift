@@ -23,7 +23,7 @@ let package = Package(
         .library(
             name: "tcsecp256k1",
             targets: [
-                "tcsecp256k1"
+                "secp256k1"
             ]
         ),
         .library(
